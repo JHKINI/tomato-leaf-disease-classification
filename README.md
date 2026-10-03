@@ -458,25 +458,29 @@ Test Accuracy를 기록했습니다.
 최종 실험 결과에는 다음 자료를 포함합니다.
 
 ``` text
-models/
-├── Keras ANN
-├── PyTorch ANN
-├── Keras DNN
-├── PyTorch DNN
-├── Keras CNN
-└── PyTorch CNN
-
-results/
-├── metrics.csv
-├── classification_report.csv
-├── confusion_matrix.csv
-├── confusion_matrix.png
-├── accuracy_curve.png
-├── loss_curve.png
-└── training_history.csv
-
-visualization/
-└── tomato_cnn_feature_map_25.png
+tomato-leaf-disease-classification/
+│
+├── README.md
+│
+├── code/
+│   ├── tomato_leaf_classification.ipynb
+│   └── tomato_leaf_classification.py
+│
+├── results/
+│   ├── keras_ann/
+│   ├── pytorch_ann/
+│   ├── keras_dnn/
+│   ├── pytorch_dnn/
+│   ├── keras_cnn/
+│   ├── pytorch_cnn/
+│   └── final_6_model_accuracy_comparison.xlsx
+│
+├── visualization/
+│   ├── final_6_model_accuracy_comparison.png
+│   └── tomato_cnn_feature_map_25.png
+│
+└── docs/
+    └── tomato_leaf_disease.pptx
 ```
 
 ------------------------------------------------------------------------
