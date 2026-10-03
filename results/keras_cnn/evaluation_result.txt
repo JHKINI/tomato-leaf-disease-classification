@@ -1,0 +1,23 @@
+Tomato Leaf Disease Classification
+====================================
+
+Accuracy : 0.9472
+Precision: 0.9474
+Recall   : 0.9472
+F1-score : 0.9470
+
+Classification Report
+---------------------
+                                               precision    recall  f1-score   support
+
+                      Tomato___Bacterial_spot       0.95      0.98      0.96       211
+                         Tomato___Late_blight       0.93      0.95      0.94       211
+                  Tomato___Septoria_leaf_spot       0.95      0.92      0.94       211
+Tomato___Spider_mites Two-spotted_spider_mite       0.92      0.95      0.93       211
+                         Tomato___Target_Spot       0.95      0.88      0.91       211
+       Tomato___Tomato_Yellow_Leaf_Curl_Virus       0.94      0.97      0.95       211
+                             Tomato___healthy       0.99      0.99      0.99       211
+
+                                     accuracy                           0.95      1477
+                                    macro avg       0.95      0.95      0.95      1477
+                                 weighted avg       0.95      0.95      0.95      1477

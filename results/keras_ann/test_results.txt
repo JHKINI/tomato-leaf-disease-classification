@@ -1,0 +1,60 @@
+
+========================================
+Keras Single-Layer ANN
+========================================
+
+Model Architecture
+Input: 64x64x3
+Flatten
+Dense(7, Softmax)
+
+Total Parameters:
+86,023
+
+Training
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 32
+Epochs: 30
+Data Augmentation: None
+Seed: 42
+
+Best Epoch:
+17
+
+Best Validation Accuracy:
+0.7116
+
+Test Results
+----------------------------------------
+Accuracy : 0.7007
+Precision: 0.7145
+Recall   : 0.7007
+F1-score : 0.6926
+
+Classification Report
+----------------------------------------
+                                               precision    recall  f1-score   support
+
+                      Tomato___Bacterial_spot       0.69      0.76      0.72       211
+                         Tomato___Late_blight       0.75      0.67      0.70       211
+                  Tomato___Septoria_leaf_spot       0.77      0.46      0.58       211
+Tomato___Spider_mites Two-spotted_spider_mite       0.73      0.70      0.71       211
+                         Tomato___Target_Spot       0.77      0.53      0.63       211
+       Tomato___Tomato_Yellow_Leaf_Curl_Virus       0.67      0.92      0.78       211
+                             Tomato___healthy       0.63      0.86      0.73       211
+
+                                     accuracy                           0.70      1477
+                                    macro avg       0.71      0.70      0.69      1477
+                                 weighted avg       0.71      0.70      0.69      1477
+
+
+Confusion Matrix
+----------------------------------------
+[[161   7   4   1   3  30   5]
+ [ 17 141  14  12   2  13  12]
+ [ 27  21  97  13   6  26  21]
+ [  8   3   2 148  11  19  20]
+ [  7   7   5  25 111   6  50]
+ [ 11   4   0   1   0 195   0]
+ [  3   6   4   3  11   2 182]]

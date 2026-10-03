@@ -1,0 +1,7 @@
+﻿Model,Accuracy
+ANN-Keras,70.07
+ANN-PyTorch,72.65
+DNN-Keras,74.48
+DNN-PyTorch,74.34
+CNN-Keras,94.72
+CNN-PyTorch,94.11
