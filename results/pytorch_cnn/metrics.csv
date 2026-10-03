@@ -1,0 +1,8 @@
+﻿Metric,Value
+Best Epoch,29.0
+Best Val Accuracy,0.9564625850340136
+Test Accuracy,0.9410968178740691
+Test Precision,0.9418543425351721
+Test Recall,0.9410968178740691
+Test F1-score,0.9412131230207212
+Test Images,1477.0

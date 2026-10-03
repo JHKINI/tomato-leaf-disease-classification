@@ -1,0 +1,58 @@
+
+========================================
+PyTorch Single-Layer ANN
+========================================
+
+Model Architecture
+Input: 64x64x3
+Flatten
+Linear(12288 -> 7)
+
+Training
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 32
+Epochs: 30
+Loss: CrossEntropyLoss
+Data Augmentation: None
+Seed: 42
+
+Best Epoch:
+24
+
+Best Validation Accuracy:
+0.7259
+
+Test Results
+----------------------------------------
+Accuracy : 0.7265
+Precision: 0.7328
+Recall   : 0.7265
+F1-score : 0.7239
+
+Classification Report
+----------------------------------------
+                                               precision    recall  f1-score   support
+
+                      Tomato___Bacterial_spot       0.64      0.84      0.73       211
+                         Tomato___Late_blight       0.77      0.61      0.68       211
+                  Tomato___Septoria_leaf_spot       0.70      0.66      0.68       211
+Tomato___Spider_mites Two-spotted_spider_mite       0.74      0.77      0.75       211
+                         Tomato___Target_Spot       0.68      0.63      0.65       211
+       Tomato___Tomato_Yellow_Leaf_Curl_Virus       0.78      0.91      0.84       211
+                             Tomato___healthy       0.83      0.66      0.73       211
+
+                                     accuracy                           0.73      1477
+                                    macro avg       0.73      0.73      0.72      1477
+                                 weighted avg       0.73      0.73      0.72      1477
+
+
+Confusion Matrix
+----------------------------------------
+[[178   7   4   0   2  18   2]
+ [ 24 129  25  12   3  11   7]
+ [ 25  12 139  14   6  12   3]
+ [ 10   2   7 163  14  11   4]
+ [ 16   5  15  26 133   3  13]
+ [ 14   4   0   1   0 192   0]
+ [ 12   8   9   5  38   0 139]]
