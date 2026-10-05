@@ -71,8 +71,9 @@ CNN 내부의 특징 추출 과정을 확인했습니다.
 ## 2. Dataset
 
 ### Dataset
-
-PlantVillage 기반 토마토 잎 이미지 데이터셋을 사용했습니다.
+데이터출처
+Mendeley data Data for: Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network
+https://data.mendeley.com/datasets/tywbtsjrjv/1
 
 최종 실험에서는 토마토 관련 7개 클래스를 선정했습니다.
 
